@@ -2,9 +2,20 @@
 
 An evolutionary algorithm that breeds 2D cellular automata rules capable of growing a target pattern from a single seed cell.
 
-![Fine Stripes Evolution](analysis/qualitative/best_step_gifs/pixel_iou/fine_stripes.gif)
-
-*CA evolving to produce the fine stripes pattern (pixel IoU fitness, 200 generations).*
+<table>
+  <tr>
+    <th align="center">Evolution</th>
+    <th align="center">Target</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="analysis/qualitative/best_step_gifs/pixel_iou/fine_stripes.gif" width="300"/><br><sub>Fine Stripes</sub></td>
+    <td align="center"><img src="analysis/target_grids/fine_stripes.png" width="300"/><br><sub>Fine Stripes</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="analysis/qualitative/best_step_gifs/distance_morphology/cross.gif" width="300"/><br><sub>Cross</sub></td>
+    <td align="center"><img src="analysis/target_grids/cross.png" width="300"/><br><sub>Cross</sub></td>
+  </tr>
+</table>
 
 ---
 
