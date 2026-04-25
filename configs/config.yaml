@@ -1,0 +1,22 @@
+num_experiments: 5
+steps: 40
+generations: 200
+
+fitness: distance_morphology
+output: distance_morphology
+
+N: 80
+mutation_rate: 0.02
+crossover_rate: 0.8
+tournament_size: 5
+seed: 420
+
+patterns: [
+  "checker",
+  "cross",
+  "fine_stripes",
+  "h",
+  "spine",
+  "square",
+  "stripes"
+]

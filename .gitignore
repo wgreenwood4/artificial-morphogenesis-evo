@@ -17,3 +17,9 @@ outputs/
 *.json
 *.png
 *.gif
+
+!analysis/
+!analysis/qualitative/
+!analysis/qualitative/best_step_gifs/
+!analysis/qualitative/best_step_gifs/pixel_iou/
+!analysis/qualitative/best_step_gifs/pixel_iou/fine_stripes.gif
